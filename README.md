@@ -42,9 +42,7 @@ Pentru a evita problemele de race condition, am introdus Lock-uri acolo unde era
 
 Tema retine si logurile pentru a face debug-ul mai usor. Aceasta a fost implementata prin intermediul clasei
 de logging.
-
-Intregul enunt a fost implementat -UnitTesting. Programul trece toate testele.
-
+Intregul enunt a fost implementat. Programul trece toate testele.
 Pentru realizarea temei m-am folosit de  laboratoarele 1, 2 si 3 de ASC
 
 
