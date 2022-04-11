@@ -21,7 +21,7 @@ Pentru a evita problemele de race condition, am introdus Lock-uri acolo unde era
 	-Contine un constructor, care initializeaza campurile si porneste threadul
 	-Functia register_producer: adauga un producer in lista de produceri si ii returneaza un id
 	-Functia publish: adauga produsul primit ca parametru in lista de produse. Returneaza adevarat daca
-producerul mai are loc si fals in cazul in care lista de produse este plina
+	producerul mai are loc si fals in cazul in care lista de produse este plina
 	-Functia new_cart: adauga un cart in lista de carturi si ii returneaza un id
 	-Functia add_to_cart: adauga un produs in cart, daca produsul nu a aparut inca/nu exista, returneaza fals
 	-Functia remove_from_cart: scoate un produs din cart si il readauga in lista de produse
@@ -33,7 +33,7 @@ producerul mai are loc si fals in cazul in care lista de produse este plina
 	-Functia print_carts: printeaza produsele din cart, folosindu-se de marketplace
 	-Functia add_product_to_cart: adauga produsul primit ca parametru in cart folosindu-se de marketplace
 	-Functia run: efectueaza operatia (descrisa de "type") de "quantity" dati pentru toate 
-produsele din carturi folosind functiile descrise mai sus. La sfarsit, apeleaza print_carts
+	produsele din carturi folosind functiile descrise mai sus. La sfarsit, apeleaza print_carts
 
 # Clasa producer:
 	-Contine un constructor, care initializeaza campurile si porneste threadul
